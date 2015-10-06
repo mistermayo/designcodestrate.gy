@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .text-muted {
@@ -53,7 +53,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -71,7 +71,7 @@ h6 {
 
 .btn-primary {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #000000;
@@ -119,7 +119,7 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -200,7 +200,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -271,62 +271,54 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 100px;
     position: relative;
+    margin: 0 auto;
 }
 
 header .intro-text .intro-lead-in p {
-  margin-bottom: 25px;
-  text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 36px;
-    line-height: 50px;
+    margin-bottom: 55px;
+    font-family: "arno-pro-caption",serif;
+    font-size: 40px;
+    line-height: 48px;
     color: red;
-    top: 350px;
-    left:0;
-    position: absolute;
-
-
+    margin-top: -250px;
+    margin: 0 auto;
+    width: 35%
 }
-/*header .intro-text  {
-padding: 5px;
-margin-left: auto;
-margin-right: auto;
-width: 30%;
+
+header .intro-text .intro-heading {
+    margin-bottom: 100px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+}
 
 
-}*/
-header .intro-text .intro-heading p {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    line-height: 35px;
-    text-align: center;
-    top: 500px;
-    left:0;
-    position: absolute;
+header .intro-text .intro-lead-in {
+  margin-top: -250px;
+
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 150px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "arno-pro-caption",serif;
         font-size: 72spx;
         line-height: 40px;
         color: red;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin-bottom: 100px;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -342,13 +334,21 @@ section h2.section-heading {
     margin-bottom: 15px;
     font-size: 40px;
 }
+
+#team {
+  padding-top:0px;
+  padding-bottom: 0px;
+}
+#contact {
+  padding-top:150px;
+}
 header {
   background-color: grey;
 }
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -364,8 +364,9 @@ section h3.section-subheading {
 }
 
 .service-heading {
-    margin: 15px 0;
     text-transform: none;
+    margin-top: 70px;
+    margin-bottom: 10px;
 }
 
 
@@ -631,28 +632,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -669,7 +670,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 40px;
 }
 
@@ -677,7 +678,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 40px;
 }
 
