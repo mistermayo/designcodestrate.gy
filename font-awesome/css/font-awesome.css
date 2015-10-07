@@ -33,9 +33,10 @@
 }
 .fa-4x {
   font-size: 4em;
-  margin-bottom:5px;
+  margin-bottom:1px;
 
 }
+
 .fa-5x {
   font-size: 5em;
 }
@@ -149,8 +150,9 @@
   margin-top: 5px;
   margin-bottom: 1px;
 
-
 }
+
+
 .fa-stack-1x,
 .fa-stack-2x {
   position: absolute;
