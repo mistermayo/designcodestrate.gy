@@ -177,7 +177,11 @@ fieldset[disabled] .btn-xl.active {
     color: #000000;
     background-color: #fff;
 }
+.container-team {
 
+    box-sizing: border-box;
+      width: 100%;
+}
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -456,13 +460,15 @@ section h2.section-heading-exp {
 
 }
 
-
+#portfolio {
+      padding: 100px 0;
+}
 #team {
   padding-top:0px;
   padding-bottom: 0px;
 }
 #contact {
-  padding-top:150px;
+  padding-top:100px;
   background-color: #333333
 }
 header {
