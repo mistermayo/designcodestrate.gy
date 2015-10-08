@@ -311,15 +311,15 @@ header .intro-text .intro-lead-in p {
     opacity: 1;
 }
 
-header .intro-text .intro-heading {
+header .intro-text .intro-heading p {
     margin-bottom: 100px;
     font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
     font-size-adjust:0.508;
     font-weight:normal;
     font-style:normal;
-    font-size: 32px;
+    font-size: 16px;
     /*font-weight: 700;*/
-    line-height: 40px;
+    line-height: 30px;
     z-index: 99;
     font-weight: bold;
     opacity: 1;
@@ -332,6 +332,8 @@ header .intro-text .intro-lead-in {
 }
 header .intro-text .intro-heading {
   margin-top: 60px;
+  font-size: 36px;
+
 
 }
 #portfolio {
@@ -439,7 +441,7 @@ section h2.section-heading {
 section h2.contact-heading {
     font-size: 20px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-family: "arno-pro-caption",serif;
     color: 	#ffffff;
 
