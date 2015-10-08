@@ -317,8 +317,8 @@ header .intro-text .intro-lead-in p {
 
 header .intro-text .intro-heading p {
     margin-bottom: 100px;
-    font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
-    font-size-adjust:0.508;
+   font-family:"Apercu Regular",Calibri,Roboto, sans-serif;
+   font-size-adjust:0.508;
     font-weight:normal;
     font-style:normal;
     font-size: 16px;
@@ -658,11 +658,16 @@ section h3.section-subheading {
 }
 h4.service-heading {
   color: 	#ffffff;
-  margin-top: 100px;
   line-height: 10px;
   border-bottom: 1px;
 
 }
+#section .service-heading p{
+width: 30%;
+
+}
+
+
 
 @media(min-width:992px) {
     .timeline>li {
