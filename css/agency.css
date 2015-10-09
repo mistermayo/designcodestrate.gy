@@ -6,10 +6,8 @@
 
 body {
     overflow-x: hidden;
-    font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
-    font-size-adjust:0.508;
-    font-weight:normal;
-    font-style:normal;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 .text-muted {
@@ -55,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
+  font-family: "arno-pro-caption",serif;
   font-size-adjust:0.508;
   font-weight:normal;
   font-style:normal;
@@ -315,6 +313,7 @@ header .intro-text .intro-lead-in p {
     opacity: 1;
 }
 
+
 header .intro-text .intro-heading p {
     margin-bottom: 100px;
    font-family:"Apercu Regular",Calibri,Roboto, sans-serif;
@@ -322,7 +321,6 @@ header .intro-text .intro-heading p {
     font-weight:normal;
     font-style:normal;
     font-size: 16px;
-    /*font-weight: 700;*/
     line-height: 30px;
     z-index: 99;
     font-weight: bold;
@@ -332,12 +330,16 @@ header .intro-text .intro-heading p {
 
 header .intro-text .intro-lead-in {
   margin-top: -275px;
+  font-family: "arno-pro-caption",serif;
+
 
 }
 header .intro-text .intro-heading {
   margin-top: 60px;
   font-size: 36px;
-
+  font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
+  font-size-adjust:0.508;
+  font-style:normal;
 
 }
 #portfolio {
@@ -356,7 +358,7 @@ header .intro-text .intro-heading {
         padding-bottom: 100px;
     }
 
-    header .intro-text .intro-lead-in {
+    header .intro-text .intro-lead-in p {
         margin-bottom: 25px;
         font-family: "arno-pro-caption",serif;
         font-size: 72spx;
@@ -364,7 +366,7 @@ header .intro-text .intro-heading {
         color: #f7323f;
     }
 
-    header .intro-text .intro-heading {
+    header .intro-text .intro-heading p{
         margin-bottom: 100px;
         font-family:"Apercu Regular",Calibri,Roboto,sans-serif;
         font-size-adjust:0.508;
@@ -395,9 +397,11 @@ header .intro-text .intro-heading {
     }
     header .intro-text .intro-lead-in {
       margin-top: -150px;
+      font-family: "arno-pro-caption",serif;
+
 
     }
-    header .intro-text .intro-heading  {
+    header .intro-text .intro-heading {
         margin-bottom: 30px;
         margin-top: 30px;
         font-family: "Apercu Regular", Calibri, Roboto, sans-serif;
@@ -408,15 +412,7 @@ header .intro-text .intro-heading {
         line-height: 20px;
         width: auto;
     }
-    /*#services img::nth-child(1) {
-      margin-left: 40px;
-    }*/
-    /*#services img:nth-child(2) {
-      margin-top: auto;
-    }
-    #services img::nth-of-type(3){
-      margin-left: 20px;
-    }*/
+
 }
 @media(max-width:768px) {
   .fa-stack::nth-child(1) {
@@ -477,7 +473,7 @@ header {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size-adjust:0.508;
     font-weight:normal;
     font-style:normal;
@@ -501,7 +497,7 @@ section h3.section-subheading {
     color: 	#ffffff;
 
 }
-#services p{
+#services p {
   color: 	#ffffff;
 
 }
