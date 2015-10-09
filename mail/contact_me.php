@@ -1,5 +1,4 @@
 <!-- <?php
-// Check for empty fields
 // if(empty($_POST['name'])  		||
 //    empty($_POST['email']) 		||
 //    empty($_POST['phone']) 		||
