@@ -181,8 +181,8 @@
             <br>
             <div class="row">
               <div class="col-lg-12">
-            <form action="//formspree.io/charlie@designcodestrate.gy" method="POST" name="sentMessage" id="contactForm" novalidate>
-
+            <form action="//formspree.io/charlie@designcodestrate.gy" method="POST">
+              <input type="hidden" name="_next" value="http://www.designcodestrate.gy" />
                 <div class="form-group-2">
                   <h2 class="contact-heading">Name</h2>
                     <input type="text" class="form-control no-border" placeholder=" " id="name" required data-validation-required-message="Please enter your name.">
@@ -207,7 +207,7 @@
               <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success">
-                    <button type="submit" class="btn btn-xl" onsubmit="setTimeout(function () { window.location.reload(); }, 10)">Send Message</button>
+                    <button type="submit" class="btn btn-xl" value="send">Send Message</button>
               </div>
             </div>
 
