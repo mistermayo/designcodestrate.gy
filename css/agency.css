@@ -9,7 +9,18 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
-
+.mail-link {
+  font-size: 36px;
+  color: white;
+}
+.mail-link a:hover{
+  font-size: 36px;
+  color: red;
+}
+.mail-link a:active{
+  font-size: 36px;
+  color: white;
+}
 .text-muted {
     color: #777;
 }
@@ -326,7 +337,6 @@ header .intro-text .intro-heading p {
     font-weight: bold;
     opacity: 1;
 }
-
 
 header .intro-text .intro-lead-in {
   margin-top: -275px;
