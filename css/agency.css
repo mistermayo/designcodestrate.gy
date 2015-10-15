@@ -280,12 +280,7 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
-    .mail-link a:hover{
-    width: 100%;
-}
-    .mail-link a, a:active{
-      width: 100%;
-}
+
     .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
@@ -351,9 +346,10 @@ header .intro-text .intro-heading p {
    font-size-adjust:0.508;
     font-weight:normal;
     font-style:normal;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 20px;
     z-index: 99;
+    margin: 0 auto;
     font-weight: bold;
     opacity: 1;
 }
@@ -417,6 +413,9 @@ header .intro-text .intro-heading {
     header .intro-text img{
         width: 100%
     }
+    .btn {
+      margin-top: 15px;
+    }
     header .intro-text .intro-lead-in p {
         margin-bottom: 15px;
         font-family: "arno-pro-caption",serif;
@@ -432,15 +431,15 @@ header .intro-text .intro-heading {
 
 
     }
-    header .intro-text .intro-heading {
+    header .intro-text .intro-heading p{
         margin-bottom: 30px;
         margin-top: 30px;
         font-family: "Apercu Regular", Calibri, Roboto, sans-serif;
         font-size-adjust:0.508;
-        font-weight:normal;
-        font-style:normal;
-        font-size: 18px;
+        font-size: 12px;
+        width: 50%;
         margin: 0 auto;
+       text-align: center;
         line-height: 20px;
     }
 
@@ -454,6 +453,12 @@ header .intro-text .intro-heading {
     margin-left: 20px;
   }
 
+}
+.mail-link a:hover {
+font-size: 16px;
+}
+.mail-link a, a:active {
+  font-size: 16px;
 }
 
 section {
