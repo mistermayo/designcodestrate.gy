@@ -390,7 +390,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in p {
         margin-bottom: 25px;
         font-family: "arno-pro-caption",serif;
-        font-size: 72spx;
+        font-size: 40px;
         line-height: 40px;
         color: #f7323f;
     }
@@ -400,7 +400,7 @@ header .intro-text .intro-heading {
         font-family:"Apercu Regular",Calibri,Roboto,sans-serif;
         font-size-adjust:0.508;
         font-style:normal;
-        font-size: 72spx;
+        font-size: 52spx;
         line-height: 30px;
     }
 }
