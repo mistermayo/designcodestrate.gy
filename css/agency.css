@@ -390,7 +390,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in p {
         margin-bottom: 25px;
         font-family: "arno-pro-caption",serif;
-        font-size: 40px;
+        font-size: 58px;
         line-height: 40px;
         color: #f7323f;
     }
@@ -400,7 +400,7 @@ header .intro-text .intro-heading {
         font-family:"Apercu Regular",Calibri,Roboto,sans-serif;
         font-size-adjust:0.508;
         font-style:normal;
-        font-size: 52spx;
+        font-size: 8px;
         line-height: 30px;
     }
 }
@@ -414,12 +414,12 @@ header .intro-text .intro-heading {
         width: 100%
     }
     .btn {
-      margin-top: 15px;
+      margin-top: 25px;
     }
     header .intro-text .intro-lead-in p {
         margin-bottom: 15px;
         font-family: "arno-pro-caption",serif;
-        font-size: 18px;
+        font-size: 28px;
         line-height: 25px;
         color: 	#f7323f;
         margin-top: 150px;
@@ -436,11 +436,11 @@ header .intro-text .intro-heading {
         margin-top: 30px;
         font-family: "Apercu Regular", Calibri, Roboto, sans-serif;
         font-size-adjust:0.508;
-        font-size: 12px;
+        font-size: 8px;
         width: 50%;
         margin: 0 auto;
-       text-align: center;
-        line-height: 20px;
+        text-align: center;
+        line-height: 15px;
     }
 
 }
