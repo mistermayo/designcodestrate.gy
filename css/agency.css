@@ -11,15 +11,15 @@ body {
 }
 .mail-link {
   font-size: 36px;
-  color: red;
+  color: #f7323f;
 }
 .mail-link a:hover{
   font-size: 36px;
-  color: red;
+  color: #f7323f;
 }
 .mail-link a, a:active{
   font-size: 36px;
-  color: red;
+  color: #f7323f;
 }
 .text-muted {
     color: #777;
@@ -191,6 +191,21 @@ fieldset[disabled] .btn-xl.active {
     box-sizing: border-box;
     width: 100%;
 }
+.container-contact {
+
+    box-sizing: border-box;
+    width: 100%;
+}
+.container-services {
+
+    box-sizing: border-box;
+    width: 100%;
+}
+.container-portfolio {
+
+    box-sizing: border-box;
+    width: 100%;
+}
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -265,7 +280,12 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
-
+    .mail-link a:hover{
+    width: 100%;
+}
+    .mail-link a, a:active{
+      width: 100%;
+}
     .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
@@ -364,9 +384,7 @@ header .intro-text .intro-heading {
   position: relative;
 }
 
-#portfolio img {
-  width: 100%;
-}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 150px;
@@ -424,7 +442,7 @@ header .intro-text .intro-heading {
         font-style:normal;
         font-size: 18px;
         line-height: 20px;
-        width: auto;
+        width: 35%
     }
 
 }
@@ -503,6 +521,9 @@ section h3.section-subheading {
 
         padding: 150px 0;
     }
+}
+#portfolio img {
+  width: 75%;
 }
 
 .service-heading {
