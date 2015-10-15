@@ -425,7 +425,6 @@ header .intro-text .intro-heading {
         color: 	#f7323f;
         margin-top: 150px;
         margin: 0 auto;
-        width: 35%
     }
     header .intro-text .intro-lead-in {
       margin-top: -150px;
@@ -441,8 +440,8 @@ header .intro-text .intro-heading {
         font-weight:normal;
         font-style:normal;
         font-size: 18px;
+        margin: 0 auto;
         line-height: 20px;
-        width: 35%
     }
 
 }
