@@ -11,15 +11,15 @@ body {
 }
 .mail-link {
   font-size: 36px;
-  color: white;
+  color: red;
 }
 .mail-link a:hover{
   font-size: 36px;
   color: red;
 }
-.mail-link a:active{
+.mail-link a, a:active{
   font-size: 36px;
-  color: white;
+  color: red;
 }
 .text-muted {
     color: #777;
@@ -363,6 +363,10 @@ header .intro-text .intro-heading {
   -o-background-size: cover;
   position: relative;
 }
+
+#portfolio img {
+  width: 100%;
+}
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 150px;
@@ -377,13 +381,12 @@ header .intro-text .intro-heading {
         color: #f7323f;
     }
 
-    header .intro-text .intro-heading p{
+    header .intro-text .intro-heading p {
         margin-bottom: 100px;
         font-family:"Apercu Regular",Calibri,Roboto,sans-serif;
         font-size-adjust:0.508;
         font-style:normal;
-        font-size: 16px;
-        font-weight: 700;
+        font-size: 72spx;
         line-height: 30px;
     }
 }
