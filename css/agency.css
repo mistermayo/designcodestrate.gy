@@ -346,8 +346,8 @@ header .intro-text .intro-heading p {
    font-size-adjust:0.508;
     font-weight:normal;
     font-style:normal;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 30px;
     z-index: 99;
     margin: 0 auto;
     font-weight: bold;
@@ -390,8 +390,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in p {
         margin-bottom: 25px;
         font-family: "arno-pro-caption",serif;
-        font-size: 58px;
-        line-height: 40px;
+        font-size: 48px;
+        line-height: 50px;
         color: #f7323f;
     }
 
@@ -400,7 +400,7 @@ header .intro-text .intro-heading {
         font-family:"Apercu Regular",Calibri,Roboto,sans-serif;
         font-size-adjust:0.508;
         font-style:normal;
-        font-size: 8px;
+        font-size: 18px;
         line-height: 30px;
     }
 }
