@@ -174,7 +174,7 @@ fieldset[disabled] .btn-xl.active {
     color: #000000;
     background-color: #fff;
 }
-.container-team {
+#team.container {
 
     box-sizing: border-box;
     width: 100%;
