@@ -9,21 +9,7 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
-.mail-link {
-  font-size: 36px;
-  color: #f7323f;
-}
-.mail-link a:hover{
-  font-size: 36px;
-  color: #f7323f;
-}
-.mail-link a, a:active{
-  font-size: 36px;
-  color: #f7323f;
-}
-.text-muted {
-    color: #777;
-}
+
 
 
 .text-primary {
@@ -390,13 +376,22 @@ header .intro-text .intro-heading {
         line-height: 50px;
         color: #f7323f;
     }
-    .mail-link a:hover {
-    font-size: 16px;
+    
+    .mail-link {
+      font-size: 36px;
+      color: #f7323f;
     }
-    .mail-link a, a:active {
-      font-size: 16px;
+    .mail-link a:hover{
+      font-size: 36px;
+      color: #f7323f;
     }
-
+    .mail-link a, a:active{
+      font-size: 36px;
+      color: #f7323f;
+    }
+    .text-muted {
+        color: #777;
+    }
     header .intro-text .intro-heading p {
         margin-bottom: 100px;
         font-size-adjust:0.508;
