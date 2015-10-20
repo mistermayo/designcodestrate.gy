@@ -340,8 +340,9 @@ header .intro-text .intro-lead-in p {
 
 
 header .intro-text .intro-heading p {
+    font-family: "arno-pro-caption",serif;
     margin-bottom: 100px;
-   font-size-adjust:0.508;
+    font-size-adjust:0.508;
     font-weight:normal;
     font-style:normal;
     font-size: 18px;
@@ -402,6 +403,8 @@ header .intro-text .intro-heading {
         font-style:normal;
         font-size: 18px;
         line-height: 30px;
+        font-family: "arno-pro-caption",serif;
+
     }
 }
 
@@ -510,10 +513,12 @@ section h3.section-subheading {
     font-style:normal;
     font-size: 16px;
 }
+
 #services {
   background-color: #f7323f;
   padding: 100px 0;
   padding-bottom: 50px;
+
 }
 @media(min-width:768px) {
     section {
@@ -685,15 +690,18 @@ section h3.section-subheading {
         padding: 0 30px 20px 20px;
         text-align: left;
     }
+    #services p{
+    font-family: "arno-pro-caption",serif;
+    font-size: 16px;
+    }
+
 }
 h4.service-heading {
   color: 	#ffffff;
   line-height: 10px;
   border-bottom: 1px;
+  font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
 
-}
-#section .service-heading p{
-width: 30%;
 
 }
 
