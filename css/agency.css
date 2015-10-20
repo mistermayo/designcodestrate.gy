@@ -332,7 +332,7 @@ header .intro-text .intro-lead-in p {
     color: 	#f7323f;
     margin-top: -275px;
     margin: 0 auto;
-    width: 35%;
+    width: 55%;
     z-index: 99;
     font-weight: bold;
     opacity: 1;
@@ -389,6 +389,12 @@ header .intro-text .intro-heading {
         line-height: 50px;
         color: #f7323f;
     }
+    .mail-link a:hover {
+    font-size: 16px;
+    }
+    .mail-link a, a:active {
+      font-size: 16px;
+    }
 
     header .intro-text .intro-heading p {
         margin-bottom: 100px;
@@ -443,13 +449,14 @@ header .intro-text .intro-heading {
   .fa-stack::nth-child(3) {
     margin-left: 20px;
   }
-
-}
-.mail-link a:hover {
-font-size: 16px;
-}
-.mail-link a, a:active {
+  .mail-link a:hover {
   font-size: 16px;
+  }
+  .mail-link a, a:active {
+    font-size: 16px;
+  }
+
+
 }
 
 section {
