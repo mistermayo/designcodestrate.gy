@@ -272,7 +272,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
-    .navbar-default {
+     {
         padding: 25px 0;
         border: 0;
         background-color: transparent;
@@ -327,7 +327,6 @@ header .intro-text {
 
 header .intro-text .intro-lead-in p {
     margin-bottom: 55px;
-    font-family: "arno-pro-caption",serif;
     font-size: 40px;
     line-height: 48px;
     color: 	#f7323f;
@@ -342,7 +341,6 @@ header .intro-text .intro-lead-in p {
 
 header .intro-text .intro-heading p {
     margin-bottom: 100px;
-   font-family:"Apercu Regular",Calibri,Roboto, sans-serif;
    font-size-adjust:0.508;
     font-weight:normal;
     font-style:normal;
@@ -356,14 +354,12 @@ header .intro-text .intro-heading p {
 
 header .intro-text .intro-lead-in {
   margin-top: -275px;
-  font-family: "arno-pro-caption",serif;
 
 
 }
 header .intro-text .intro-heading {
   margin-top: 60px;
   font-size: 16px;
-  font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
   font-size-adjust:0.508;
   font-style:normal;
   line-height: 40px;
@@ -389,7 +385,6 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in p {
         margin-bottom: 25px;
-        font-family: "arno-pro-caption",serif;
         font-size: 48px;
         line-height: 50px;
         color: #f7323f;
@@ -397,7 +392,6 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading p {
         margin-bottom: 100px;
-        font-family:"Apercu Regular",Calibri,Roboto,sans-serif;
         font-size-adjust:0.508;
         font-style:normal;
         font-size: 18px;
@@ -418,8 +412,7 @@ header .intro-text .intro-heading {
     }
     header .intro-text .intro-lead-in p {
         margin-bottom: 15px;
-        font-family: "arno-pro-caption",serif;
-        font-size: 28px;
+        font-size: 20px;
         line-height: 25px;
         color: 	#f7323f;
         margin-top: 150px;
@@ -427,18 +420,16 @@ header .intro-text .intro-heading {
     }
     header .intro-text .intro-lead-in {
       margin-top: -150px;
-      font-family: "arno-pro-caption",serif;
 
 
     }
     header .intro-text .intro-heading p{
         margin-bottom: 30px;
         margin-top: 30px;
-        font-family: "Apercu Regular", Calibri, Roboto, sans-serif;
         font-size-adjust:0.508;
-        font-size: 8px;
-        width: 50%;
-        margin: 0 auto;
+        font-size: 10px;
+        width: 75%;
+        margin-left: 50px;
         text-align: center;
         line-height: 15px;
     }
@@ -469,7 +460,6 @@ section h2.section-heading {
     margin-top: -50px;
     margin-bottom: 50px;
     font-size: 40px;
-    font-family: "arno-pro-caption",serif;
     color: 	#ffffff;
 
 
@@ -478,7 +468,6 @@ section h2.contact-heading {
     font-size: 20px;
     margin-top: 25px;
     margin-bottom: 5px;
-    font-family: "arno-pro-caption",serif;
     color: 	#ffffff;
 
 
@@ -487,7 +476,6 @@ section h2.section-heading-exp {
     margin-top: -50px;
     margin-bottom: 50px;
     font-size: 40px;
-    font-family: "arno-pro-caption",serif;
     color: 	#494949;
 
 }
