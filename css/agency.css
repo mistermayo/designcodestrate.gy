@@ -87,7 +87,6 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #black;
 }
 
 .btn-primary:active,
@@ -524,7 +523,7 @@ section#team .container {
   width: 100%;
   padding-right: 0px;
   padding-left: 0px;
-  margin-right: 0;
+  margin-right: 0px;
   margin-left: 0;
 }
 #services {

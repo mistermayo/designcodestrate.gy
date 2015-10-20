@@ -14,12 +14,7 @@ $(function() {
         event.preventDefault();
     });
 });
-$.ajax({
-    url: "//formspree.io/tuckerjamesmayo@gmail.com",
-    method: "POST",
-    data: {message: "hello!"},
-    dataType: "json"
-});
+
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
