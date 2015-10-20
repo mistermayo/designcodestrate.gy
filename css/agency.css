@@ -6,7 +6,8 @@
 
 body {
     overflow-x: hidden;
-font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
+    font-family: "arno-pro-caption",serif;
+
 
 
 
@@ -174,7 +175,7 @@ fieldset[disabled] .btn-xl.active {
     color: #000000;
     background-color: #fff;
 }
-#team.container {
+.container-team {
 
     box-sizing: border-box;
     width: 100%;
@@ -324,12 +325,11 @@ header .intro-text .intro-lead-in p {
     z-index: 99;
     font-weight: bold;
     opacity: 1;
-    font-family: "arno-pro-caption",serif;
-
 }
 
 
 header .intro-text .intro-heading p {
+    font-family: "arno-pro-caption",serif;
     margin-bottom: 100px;
     font-size-adjust:0.508;
     font-weight:normal;
@@ -340,8 +340,6 @@ header .intro-text .intro-heading p {
     margin: 0 auto;
     font-weight: bold;
     opacity: 1;
-    font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
-
 }
 
 header .intro-text .intro-lead-in {
@@ -355,8 +353,6 @@ header .intro-text .intro-heading {
   font-size-adjust:0.508;
   font-style:normal;
   line-height: 40px;
-  font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
-
 
 }
 #portfolio {
@@ -382,8 +378,6 @@ header .intro-text .intro-heading {
         font-size: 48px;
         line-height: 50px;
         color: #f7323f;
-        font-family: "arno-pro-caption",serif;
-
     }
 
     .mail-link {
@@ -406,9 +400,8 @@ header .intro-text .intro-heading {
         font-size-adjust:0.508;
         font-style:normal;
         font-size: 18px;
-        font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
-
         line-height: 30px;
+        font-family: "arno-pro-caption",serif;
 
     }
 }
@@ -431,8 +424,6 @@ header .intro-text .intro-heading {
         color: 	#f7323f;
         margin-top: 150px;
         margin: 0 auto;
-        font-family: "arno-pro-caption",serif;
-
     }
     header .intro-text .intro-lead-in {
       margin-top: -150px;
@@ -448,7 +439,7 @@ header .intro-text .intro-heading {
         margin-left: 50px;
         text-align: center;
         line-height: 15px;
-        font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
+        font-family: "arno-pro-caption",serif;
 
     }
 
@@ -463,9 +454,11 @@ header .intro-text .intro-heading {
   }
   .mail-link a:hover {
   font-size: 16px;
+  color: #f7323f;
   }
   .mail-link a, a:active {
     font-size: 16px;
+    color: #f7323f;
   }
 
 
@@ -480,8 +473,6 @@ section h2.section-heading {
     margin-bottom: 50px;
     font-size: 40px;
     color: 	#ffffff;
-    font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
-
 
 
 }
@@ -498,7 +489,6 @@ section h2.section-heading-exp {
     margin-bottom: 50px;
     font-size: 40px;
     color: 	#494949;
-    font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
 
 }
 
