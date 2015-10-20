@@ -460,6 +460,10 @@ header .intro-text .intro-heading {
     font-size: 16px;
     color: #f7323f;
   }
+  .mail-link {
+    font-size: 16px;
+    color: #f7323f;
+  }
 
 
 }
@@ -499,6 +503,7 @@ section h2.section-heading-exp {
   padding-top:0px;
   padding-bottom: 0px;
 }
+
 #contact {
   padding-top:100px;
   background-color: #333333
@@ -514,7 +519,14 @@ section h3.section-subheading {
     font-style:normal;
     font-size: 16px;
 }
-
+section#team .container {
+  width: 100%;
+  padding: px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 #services {
   background-color: #f7323f;
   padding: 100px 0;
