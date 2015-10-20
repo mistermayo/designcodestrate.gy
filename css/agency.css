@@ -6,7 +6,9 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
+
+
 
 }
 
@@ -376,7 +378,7 @@ header .intro-text .intro-heading {
         line-height: 50px;
         color: #f7323f;
     }
-    
+
     .mail-link {
       font-size: 36px;
       color: #f7323f;
@@ -436,6 +438,8 @@ header .intro-text .intro-heading {
         margin-left: 50px;
         text-align: center;
         line-height: 15px;
+        font-family: "arno-pro-caption",serif;
+
     }
 
 }
@@ -466,6 +470,8 @@ section h2.section-heading {
     margin-bottom: 50px;
     font-size: 40px;
     color: 	#ffffff;
+    font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
+
 
 
 }
@@ -482,6 +488,7 @@ section h2.section-heading-exp {
     margin-bottom: 50px;
     font-size: 40px;
     color: 	#494949;
+    font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
 
 }
 
@@ -502,7 +509,6 @@ header {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size-adjust:0.508;
     font-weight:normal;
     font-style:normal;
